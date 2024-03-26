@@ -9,7 +9,7 @@ This project is a task manager application that allows users to create, manage, 
 
 ## UI
 
-(ui.png)
+![UI](ui.png)
 
 
 ## Technologies Used

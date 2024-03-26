@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.first::-webkit-inner-spin-button,
+.first::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.h-85 {
+  height: 335px;
+}
+
+.stat1{
+  @apply bg-stat1
+}
+
+.stat2{
+  @apply bg-stat2
+}
+.stat3{
+  @apply bg-stat3
+}
+.stat4{
+  @apply bg-stat4
+}
+.stat5{
+  @apply bg-stat5
+}

@@ -56,5 +56,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 
 ## License
 
-[Choose an appropriate license for your project and mention it here. For example: MIT License, Apache License, etc.]
+[MIT License]
 

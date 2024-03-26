@@ -5,7 +5,7 @@
 This project is a task manager application that allows users to create, manage, and track tasks efficiently. It provides features such as adding tasks, editing tasks, marking tasks as completed, filtering tasks, and sorting tasks based on various parameters.
 
 ## Live Link
-[Live Link](https://www.example.com)
+[Live Link](https://taskmanagersort.netlify.app/)
 
 ## UI
 

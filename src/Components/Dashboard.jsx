@@ -29,6 +29,9 @@ const Dashboard = () => {
   if (enddate != "" && startdate != "") {
     const startDateObj = new Date(startdate);
     const endDateObj = new Date(enddate);
+    if(startDateObj > endDateObj){
+      alert("Data Range is Invalid")
+    }
     tasklist = tasklist.filter((task) => {
       const taskDate = new Date(task.deadline);
       return taskDate >= startDateObj && taskDate <= endDateObj;

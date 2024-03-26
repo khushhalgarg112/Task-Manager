@@ -57,6 +57,7 @@ const TaskForm = ({ onClose }) => {
           <div className="grid grid-cols-2 gap-4">
             <div>Title:</div>
             <input
+              required
               type="text"
               name="title"
               value={formData.title}
@@ -65,6 +66,7 @@ const TaskForm = ({ onClose }) => {
             />
             <div>Description:</div>
             <textarea
+              required
               name="description"
               value={formData.description}
               onChange={handleChange}
@@ -72,6 +74,7 @@ const TaskForm = ({ onClose }) => {
             />
             <div>Assignee:</div>
             <input
+              required
               type="text"
               name="assignee"
               value={formData.assignee}
@@ -80,6 +83,7 @@ const TaskForm = ({ onClose }) => {
             />
             <div>Priority:</div>
             <select
+              required
               name="priority"
               value={formData.priority}
               onChange={handleChange}
@@ -92,6 +96,7 @@ const TaskForm = ({ onClose }) => {
             </select>
             <div>Status:</div>
             <select
+              required
               name="status"
               value={formData.status}
               onChange={handleChange}
@@ -106,6 +111,7 @@ const TaskForm = ({ onClose }) => {
             </select>
             <div>Deadline:</div>
             <input
+              required
               type="date"
               name="deadline"
               value={formData.deadline}
